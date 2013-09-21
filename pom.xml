@@ -30,4 +30,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+	<issueManagement>
+		<url>https://github.com/loic-oudot/java4cpp-annotations/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
 </project>
