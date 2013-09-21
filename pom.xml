@@ -16,7 +16,7 @@
 	</licenses>
 	<scm>
 		<url>https://github.com/loic-oudot/java4cpp-annotations</url>
-		<connection>scm:git:git://github.com/loic-oudot/java4cpp-annotations.git</connection>
+		<connection>scm:git:https://github.com/loic-oudot/java4cpp-annotations.git</connection>
 	</scm>
 	<developers>
 		<developer>
