@@ -4,7 +4,7 @@
 	<artifactId>java4cpp-annotations</artifactId>
 	<packaging>jar</packaging>
 	<name>java4cpp-annotations</name>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<description>Annotations classes for the java4cpp project</description>
 	<url>https://github.com/loic-oudot/java4cpp-annotations</url>
 	<licenses>
