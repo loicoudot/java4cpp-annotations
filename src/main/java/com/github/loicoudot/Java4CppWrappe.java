@@ -13,15 +13,17 @@ import java.lang.annotation.RetentionPolicy;
  * </ul>
  * 
  * @author Loic Oudot
- * 
+ * @version $Id: $Id
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Java4CppWrappe {
     /**
      * Sets this attribute to change the name of the generated element in the
-     * C++ proxy. By default the generated element have the same name as the
-     * corresponding Java one. The name is escaped by the mappings configuration
-     * of java4cpp. This value need to be a valid C++ name.
+     * C++ proxy.
+     * <p>
+     * By default the generated element have the same name as the corresponding
+     * Java one. The name is escaped by the mappings configuration of java4cpp.
+     * This value need to be a valid C++ name.
      */
     String value() default "";
 }

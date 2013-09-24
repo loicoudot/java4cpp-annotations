@@ -11,9 +11,9 @@ import java.lang.annotation.RetentionPolicy;
  * <li>method if {@code Java4Cpp(all = true)}</li>
  * <li>static field if {@code Java4Cpp(staticFields = true)}</li>
  * </ul>
- * 
+ *
  * @author Loic Oudot
- * 
+ * @version $Id: $Id
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Java4CppNoWrappe {

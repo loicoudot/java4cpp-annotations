@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Annotation to activate C++ proxies generation.
+ * Annotation to controls C++ proxies generation.
  * <p>
  * A {@code class}, {@code interface} or {@code enum} annotated with
  * {@code Java4Cpp} will be added to the java4cpp list of classes to be
@@ -14,6 +14,7 @@ import java.lang.annotation.Target;
  * annotation attributes.
  * 
  * @author Loic Oudot
+ * @version $Id: $Id
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
@@ -25,7 +26,7 @@ public @interface Java4Cpp {
      * <p>
      * You have to provide a valid C++ class name (no C/C++ reserved words).
      */
-    String value() default "";
+    String name() default "";
 
     /**
      * Enable the generation of the C++ proxy of the superclass and derive the
