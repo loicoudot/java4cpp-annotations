@@ -1,4 +1,4 @@
-package org.java4cpp;
+package com.github.loicoudot;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

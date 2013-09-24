@@ -4,4 +4,4 @@
  * @author Loic Oudot
  *
  */
-package org.java4cpp;
+package com.github.loicoudot;
