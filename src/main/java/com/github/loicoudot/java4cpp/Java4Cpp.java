@@ -14,7 +14,6 @@ import java.lang.annotation.Target;
  * annotation attributes.
  * 
  * @author Loic Oudot
- * @version $Id: $Id
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

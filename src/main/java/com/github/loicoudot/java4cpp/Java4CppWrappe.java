@@ -13,7 +13,6 @@ import java.lang.annotation.RetentionPolicy;
  * </ul>
  * 
  * @author Loic Oudot
- * @version $Id: $Id
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Java4CppWrappe {

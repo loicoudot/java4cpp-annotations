@@ -3,7 +3,7 @@ java4cpp-annotations
 
 Annotations classes for java4cpp project. 
 
-Gets full informations directly on the [java4cpp](https://github.com/loic-oudot/java4cpp/wiki) page project.
+Gets full informations directly on the [java4cpp-core](https://github.com/loicoudot/java4cpp-core/wiki) page project.
 
 Use the java4cpp annotations for controlling the mappings between the java classes and C++ proxies directly in the source code. It is also possible to define the mappings with some externals XML mappings file.
 
