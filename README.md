@@ -11,7 +11,7 @@ Overview
 --------
 
 Consider this annotated java class :
-
+```java
 	package my.package;
 
 	@Java4Cpp
@@ -31,9 +31,9 @@ Consider this annotated java class :
 		public void myMethod(boolean arg) {
 		}
 	}
-	
+```	
 java4cpp will generate the following C++ proxy (of course the final result may vary according to the XML templates configuration)
-
+```cpp
 	namespace my {
 		namespace package {
 
@@ -49,3 +49,4 @@ java4cpp will generate the following C++ proxy (of course the final result may v
 			};
 		}
 	}
+```
